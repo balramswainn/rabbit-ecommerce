@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div>
       {/* Topbar */}
-      <Topbar />
+      <Topbar /> 
       {/* navbar */}
       {/* Cart Drawer */}
       
