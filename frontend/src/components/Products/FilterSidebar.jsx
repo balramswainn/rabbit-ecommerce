@@ -92,7 +92,7 @@ const FilterSidebar = () => {
 
       {/* Gender Filter */}
       <div className="mb-6">
-        <label className="block text-gray-600 font-medium mb-2">Category</label>
+        <label className="block text-gray-600 font-medium mb-2">Gender</label>
         {genders.map((gender) => (
           <div key={gender} className="flex items-center mb-1">
             <input
