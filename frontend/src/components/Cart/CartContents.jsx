@@ -10,7 +10,7 @@ const CartContents = () => {
       color:"Red",
       quantity: 1,
       price: 15,
-      image: "https://picsum.photos/200?random=1"
+      image: "https://placedog.net/200?random=1"
     },
     {
       productId: 2,
@@ -19,7 +19,7 @@ const CartContents = () => {
       color:"Blue",
       quantity: 1,
       price: 25,
-      image: "https://picsum.photos/200?random=2"
+      image: "https://placedog.net/200?random=2"
     },
     {
       productId: 3,
@@ -28,7 +28,7 @@ const CartContents = () => {
       color:"Red",
       quantity: 1,
       price: 15,
-      image: "https://picsum.photos/200?random=3"
+      image: "https://placedog.net/200?random=3"
     },
     
   ]
@@ -42,9 +42,9 @@ const CartContents = () => {
               <h3>{product.name}</h3>
               <p className='text-sm text-gray-500'> size: {product.size} | color: {product.color}</p>
               <div className='flex items-center mt-2'>
-                <button className='border rounded px-2 py-1 text-xl font-medium'>-</button>
+                <button className='border border-gray-300 rounded px-2 py-1 text-xl font-medium'>-</button>
                 <span className='mx-4'>{product.quantity}</span>
-                <button className='border rounded px-2 py-1 text-xl font-medium'>+</button>
+                <button className='border border-gray-300 rounded px-2 py-1 text-xl font-medium'>+</button>
               </div>              
             </div>
           </div>
