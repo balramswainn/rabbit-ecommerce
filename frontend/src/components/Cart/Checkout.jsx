@@ -8,14 +8,14 @@ const cart = {
       size: "M",
       color: "Black",
       price: 120,
-      image: "https://placedog.net/150?random=1",
+      image: "https://picsum.photos/150?random=1",
     },
     {
       name: "Casual Sneakers",
       size: "42",
       color: "White",
       price: 75,
-      image: "https://placedog.net/150?random=2",
+      image: "https://picsum.photos/150?random=2",
     },
   ],
   totalPrice: 195,
@@ -51,7 +51,7 @@ const Checkout = () => {
             <input
               type="email"
               value="user@example.com"
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border border-gray-300 rounded"
               disabled
             />
           </div>
@@ -69,7 +69,7 @@ const Checkout = () => {
                     firstName: e.target.value,
                   })
                 }
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border border-gray-300 rounded"
                 required
               />
             </div>
@@ -85,7 +85,7 @@ const Checkout = () => {
                     lastName: e.target.value,
                   })
                 }
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border border-gray-300 rounded"
                 required
               />
             </div>
@@ -104,7 +104,7 @@ const Checkout = () => {
                   address: e.target.value,
                 })
               }
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border border-gray-300 rounded"
               required
             />
           </div>
@@ -121,7 +121,7 @@ const Checkout = () => {
                     city: e.target.value,
                   })
                 }
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border border-gray-300 rounded"
                 required
               />
             </div>
@@ -137,7 +137,7 @@ const Checkout = () => {
                     postalCode: e.target.value,
                   })
                 }
-                className="w-full p-2 border rounded"
+                className="w-full p-2 border border-gray-300 rounded"
                 required
               />
             </div>
@@ -155,7 +155,7 @@ const Checkout = () => {
                   country: e.target.value,
                 })
               }
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border border-gray-300 rounded"
               required
             />
           </div>
@@ -171,7 +171,7 @@ const Checkout = () => {
                   phone: e.target.value,
                 })
               }
-              className="w-full p-2 border rounded"
+              className="w-full p-2 border border-gray-300 rounded"
               required
             />
           </div>
